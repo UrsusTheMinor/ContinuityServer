@@ -4,6 +4,6 @@ public sealed class Guild
 {
     public Guid Id { get; set; }
     public string Name { get; set; } = "";
-    public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.UtcNow;
+    public DateTime CreatedAtUtc { get; set; } = DateTime.UtcNow;
     public List<Channel> Channels { get; set; } = new();
 }

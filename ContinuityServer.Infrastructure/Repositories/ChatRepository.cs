@@ -15,7 +15,7 @@ public sealed class ChatRepository : IChatRepository
     public async Task<IReadOnlyList<ChatMessage>> GetLatestAsync(Guid channelId, int take, CancellationToken ct)
         => await _db.Messages
             .Where(m => m.ChannelId == channelId)
-            .OrderByDescending(m => m.CreatedAt)
+            .OrderByDescending(m => m.CreatedAtUtc)
             .Take(take)
             .ToListAsync(ct);
 }

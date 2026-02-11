@@ -32,6 +32,6 @@ public sealed class AppDbContext : DbContext
             .HasForeignKey(c => c.GuildId)
             .OnDelete(DeleteBehavior.Cascade);
 
-        b.Entity<ChatMessage>().HasIndex(x => new { x.ChannelId, x.CreatedAt });
+        b.Entity<ChatMessage>().HasIndex(x => new { x.ChannelId, x.CreatedAtUtc });
     }
 }

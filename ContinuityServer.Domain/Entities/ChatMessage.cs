@@ -6,5 +6,6 @@ public sealed class ChatMessage
     public Guid ChannelId { get; set; }
     public Guid AuthorUserId { get; set; }
     public string Content { get; set; } = "";
-    public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.UtcNow;
+    
+    public DateTime CreatedAtUtc { get; set; } = DateTime.UtcNow;
 }

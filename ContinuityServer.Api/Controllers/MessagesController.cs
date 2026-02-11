@@ -28,8 +28,8 @@ public sealed class MessagesController : ControllerBase
         var msgs = await _chat.GetLatestAsync(channelId, take, ct);
 
         var dto = msgs
-            .OrderBy(m => m.CreatedAt) // return chronological
-            .Select(m => new MessageDto(m.Id, m.ChannelId, m.AuthorUserId, m.Content, m.CreatedAt))
+            .OrderBy(m => m.CreatedAtUtc) // return chronological
+            .Select(m => new MessageDto(m.Id, m.ChannelId, m.AuthorUserId, m.Content, m.CreatedAtUtc))
             .ToList();
 
         return Ok(dto);
@@ -40,7 +40,7 @@ public sealed class MessagesController : ControllerBase
     {
         var msg = await _post.HandleAsync(new PostMessageCommand(req.ChannelId, req.AuthorUserId, req.Content), ct);
 
-        var dto = new MessageDto(msg.Id, msg.ChannelId, msg.AuthorUserId, msg.Content, msg.CreatedAt);
+        var dto = new MessageDto(msg.Id, msg.ChannelId, msg.AuthorUserId, msg.Content, msg.CreatedAtUtc);
 
         // Broadcast to clients that joined this channel group
         await _hub.Clients.Group(req.ChannelId.ToString()).SendAsync("MessagePosted", new MessagePosted(dto), ct);

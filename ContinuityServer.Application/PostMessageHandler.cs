@@ -33,7 +33,7 @@ public sealed class PostMessageHandler
             ChannelId = cmd.ChannelId,
             AuthorUserId = cmd.AuthorUserId,
             Content = content,
-            CreatedAt = DateTimeOffset.UtcNow
+            CreatedAtUtc = DateTime.UtcNow
         };
 
         await _chat.AddMessageAsync(msg, ct);
