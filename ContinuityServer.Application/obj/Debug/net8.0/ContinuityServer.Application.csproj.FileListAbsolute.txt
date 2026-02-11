@@ -1,0 +1,15 @@
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Application\bin\Debug\net8.0\ContinuityServer.Application.deps.json
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Application\bin\Debug\net8.0\ContinuityServer.Application.dll
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Application\bin\Debug\net8.0\ContinuityServer.Application.pdb
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Application\bin\Debug\net8.0\ContinuityServer.Domain.dll
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Application\bin\Debug\net8.0\ContinuityServer.Domain.pdb
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Application\obj\Debug\net8.0\ContinuityServer.Application.csproj.AssemblyReference.cache
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Application\obj\Debug\net8.0\ContinuityServer.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Application\obj\Debug\net8.0\ContinuityServer.Application.AssemblyInfoInputs.cache
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Application\obj\Debug\net8.0\ContinuityServer.Application.AssemblyInfo.cs
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Application\obj\Debug\net8.0\ContinuityServer.Application.csproj.CoreCompileInputs.cache
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Application\obj\Debug\net8.0\Continui.1C71A10E.Up2Date
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Application\obj\Debug\net8.0\ContinuityServer.Application.dll
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Application\obj\Debug\net8.0\refint\ContinuityServer.Application.dll
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Application\obj\Debug\net8.0\ContinuityServer.Application.pdb
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Application\obj\Debug\net8.0\ref\ContinuityServer.Application.dll

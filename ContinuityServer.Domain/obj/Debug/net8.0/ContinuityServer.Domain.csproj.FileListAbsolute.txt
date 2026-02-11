@@ -1,0 +1,11 @@
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Domain\bin\Debug\net8.0\ContinuityServer.Domain.deps.json
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Domain\bin\Debug\net8.0\ContinuityServer.Domain.dll
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Domain\bin\Debug\net8.0\ContinuityServer.Domain.pdb
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Domain\obj\Debug\net8.0\ContinuityServer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Domain\obj\Debug\net8.0\ContinuityServer.Domain.AssemblyInfoInputs.cache
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Domain\obj\Debug\net8.0\ContinuityServer.Domain.AssemblyInfo.cs
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Domain\obj\Debug\net8.0\ContinuityServer.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Domain\obj\Debug\net8.0\ContinuityServer.Domain.dll
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Domain\obj\Debug\net8.0\refint\ContinuityServer.Domain.dll
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Domain\obj\Debug\net8.0\ContinuityServer.Domain.pdb
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Domain\obj\Debug\net8.0\ref\ContinuityServer.Domain.dll

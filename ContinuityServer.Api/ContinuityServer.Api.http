@@ -1,0 +1,6 @@
+@ContinuityServer.Api_HostAddress = http://localhost:5090
+
+GET {{ContinuityServer.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

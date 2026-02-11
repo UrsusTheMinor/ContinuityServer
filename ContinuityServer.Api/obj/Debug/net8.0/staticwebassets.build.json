@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "/RsuT87FCwBSBCuSvqvCqN4WzZstxg3KpXMbEBMuLIk=",
+  "Source": "ContinuityServer.Api",
+  "BasePath": "_content/ContinuityServer.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

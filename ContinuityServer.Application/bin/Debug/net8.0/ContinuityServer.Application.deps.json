@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ContinuityServer.Application/1.0.0": {
+        "dependencies": {
+          "ContinuityServer.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ContinuityServer.Application.dll": {}
+        }
+      },
+      "ContinuityServer.Domain/1.0.0": {
+        "runtime": {
+          "ContinuityServer.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ContinuityServer.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ContinuityServer.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

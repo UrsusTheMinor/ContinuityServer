@@ -1,0 +1,11 @@
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Contracts\bin\Debug\net8.0\ContinuityServer.Contracts.deps.json
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Contracts\bin\Debug\net8.0\ContinuityServer.Contracts.dll
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Contracts\bin\Debug\net8.0\ContinuityServer.Contracts.pdb
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Contracts\obj\Debug\net8.0\ContinuityServer.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Contracts\obj\Debug\net8.0\ContinuityServer.Contracts.AssemblyInfoInputs.cache
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Contracts\obj\Debug\net8.0\ContinuityServer.Contracts.AssemblyInfo.cs
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Contracts\obj\Debug\net8.0\ContinuityServer.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Contracts\obj\Debug\net8.0\ContinuityServer.Contracts.dll
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Contracts\obj\Debug\net8.0\refint\ContinuityServer.Contracts.dll
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Contracts\obj\Debug\net8.0\ContinuityServer.Contracts.pdb
+C:\Users\Reini\RiderProjects\ContinuityServer\ContinuityServer.Contracts\obj\Debug\net8.0\ref\ContinuityServer.Contracts.dll
