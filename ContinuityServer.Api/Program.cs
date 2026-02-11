@@ -29,24 +29,22 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
         });
 });
 */
-var cs = builder.Configuration.GetConnectionString("Default");
+var cs = builder.Configuration.GetConnectionString("Default")
+         ?? throw new InvalidOperationException("Missing ConnectionStrings:Default");
 
-builder.Services.AddDbContext<AppDbContext>(opt =>
+builder.Services.AddDbContext<AppDbContext>(o =>
 {
-    if (!string.IsNullOrWhiteSpace(cs) && cs.Contains("(localdb)", StringComparison.OrdinalIgnoreCase))
+    // SQLite connection string examples:
+    // "Data Source=/opt/continuity/data/continuity.db"
+    // "/opt/continuity/data/continuity.db"
+    if (cs.Contains("Data Source=", StringComparison.OrdinalIgnoreCase) ||
+        cs.EndsWith(".db", StringComparison.OrdinalIgnoreCase))
     {
-        // Local dev on Windows (optional)
-        opt.UseSqlServer(cs);
-    }
-    else if (!string.IsNullOrWhiteSpace(cs) && (cs.Contains("Server=", StringComparison.OrdinalIgnoreCase) || cs.Contains("Data Source=", StringComparison.OrdinalIgnoreCase)))
-    {
-        // If you provide a real SQL Server connection string, keep SQL Server
-        opt.UseSqlServer(cs);
+        o.UseSqlite(cs);
     }
     else
     {
-        // Fallback: SQLite (great for Linux server)
-        opt.UseSqlite("Data Source=/opt/continuity/data/continuity.db");
+        o.UseSqlServer(cs);
     }
 });
 
