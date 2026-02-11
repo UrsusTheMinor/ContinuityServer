@@ -17,6 +17,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+/*
 builder.Services.AddDbContext<AppDbContext>(opt =>
 {
     opt.UseSqlServer(
@@ -27,7 +28,27 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
             sql.EnableRetryOnFailure();
         });
 });
+*/
+var cs = builder.Configuration.GetConnectionString("Default");
 
+builder.Services.AddDbContext<AppDbContext>(opt =>
+{
+    if (!string.IsNullOrWhiteSpace(cs) && cs.Contains("(localdb)", StringComparison.OrdinalIgnoreCase))
+    {
+        // Local dev on Windows (optional)
+        opt.UseSqlServer(cs);
+    }
+    else if (!string.IsNullOrWhiteSpace(cs) && (cs.Contains("Server=", StringComparison.OrdinalIgnoreCase) || cs.Contains("Data Source=", StringComparison.OrdinalIgnoreCase)))
+    {
+        // If you provide a real SQL Server connection string, keep SQL Server
+        opt.UseSqlServer(cs);
+    }
+    else
+    {
+        // Fallback: SQLite (great for Linux server)
+        opt.UseSqlite("Data Source=/opt/continuity/data/continuity.db");
+    }
+});
 
 builder.Services.AddScoped<IGuildRepository, GuildRepository>();
 builder.Services.AddScoped<IChannelRepository, ChannelRepository>();
