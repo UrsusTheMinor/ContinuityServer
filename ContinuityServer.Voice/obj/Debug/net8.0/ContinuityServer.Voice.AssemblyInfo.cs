@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ContinuityServer.Voice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+152016030d465bb780dd102294fccdb95334221c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5461b6a26ec703e789c4ecf4f991207bf85a69e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ContinuityServer.Voice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ContinuityServer.Voice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
